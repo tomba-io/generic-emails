@@ -1,0 +1,141 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://github.com/tomba-io/generic-emails/schema.json",
+    "type": "object",
+    "definitions": {},
+    "title": "The list of generic email found on the web with: department,position,seniority",
+    "additionalProperties": false,
+    "examples": [
+        {
+            "emails": [
+                {
+                    "email": "support",
+                    "department": "support",
+                    "position": "support",
+                    "seniority": "junior"
+                }
+            ]
+        }
+    ],
+    "required": [
+        "emails"
+    ],
+    "properties": {
+        "emails": {
+            "$id": "#/properties/emails",
+            "type": "array",
+            "title": "The emails schema",
+            "examples": [
+                [
+                    {
+                        "email": "support",
+                        "department": "support",
+                        "position": "support",
+                        "seniority": "junior"
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/emails/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/emails/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "additionalProperties": false,
+                        "examples": [
+                            {
+                                "email": "support",
+                                "department": "support",
+                                "position": "support",
+                                "seniority": "junior"
+                            }
+                        ],
+                        "required": [
+                            "email",
+                            "department",
+                            "position",
+                            "seniority"
+                        ],
+                        "properties": {
+                            "email": {
+                                "$id": "#/properties/emails/items/anyOf/0/properties/email",
+                                "type": "string",
+                                "title": "The email schema",
+                                "description": "The first part of the email.",
+                                "maxLength": 64,
+                                "examples": [
+                                    "support"
+                                ]
+                            },
+                            "department": {
+                                "$id": "#/properties/emails/items/anyOf/0/properties/department",
+                                "type": [
+                                    "string",
+                                    "null"
+                                ],
+                                "title": "The department schema",
+                                "description": "The email working in the selected department(s).",
+                                "enum": [
+                                    "engineering",
+                                    "finance",
+                                    "hr",
+                                    "it",
+                                    "marketing",
+                                    "operations",
+                                    "management",
+                                    "executive",
+                                    "legal",
+                                    "support",
+                                    "communication",
+                                    "software",
+                                    "security",
+                                    "pr",
+                                    "warehouse",
+                                    "diversity",
+                                    "administrative",
+                                    "facilities",
+                                    "accounting"
+                                ],
+                                "examples": [
+                                    "support"
+                                ]
+                            },
+                            "position": {
+                                "$id": "#/properties/emails/items/anyOf/0/properties/position",
+                                "type": [
+                                    "string",
+                                    "null"
+                                ],
+                                "title": "The position schema",
+                                "description": "The job title of email",
+                                "default": "",
+                                "examples": [
+                                    "support"
+                                ]
+                            },
+                            "seniority": {
+                                "$id": "#/properties/emails/items/anyOf/0/properties/seniority",
+                                "type": [
+                                    "string",
+                                    "null"
+                                ],
+                                "title": "The seniority schema",
+                                "description": "The email with the selected seniority level",
+                                "enum": [
+                                    "junior",
+                                    "senior",
+                                    "executive"
+                                ],
+                                "examples": [
+                                    "junior"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
