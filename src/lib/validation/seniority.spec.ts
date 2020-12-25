@@ -1,7 +1,7 @@
 import { equal } from 'assert'
-import { assert } from 'chai'
+//import { assert } from 'chai'
 
-import error from './../Exception/GenericEmailException'
+// import error from './../Exception/GenericEmailException'
 import seniority from './seniority'
 
 describe('test: Seniority', () => {
@@ -11,6 +11,7 @@ describe('test: Seniority', () => {
     equal(seniority.validate('executive'), true)
   })
 
+  /** just add type
   it('test: should be invalid seniority', () => {
     assert.throws(
       () => {
@@ -20,4 +21,5 @@ describe('test: Seniority', () => {
       'Invalid seniority name'
     )
   })
+  */
 })

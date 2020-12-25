@@ -1,7 +1,7 @@
 import { equal } from 'assert'
-import { assert } from 'chai'
+// import { assert } from 'chai'
 
-import error from './../Exception/GenericEmailException'
+// import error from './../Exception/GenericEmailException'
 import department from './department'
 
 describe('test: Department', () => {
@@ -27,6 +27,7 @@ describe('test: Department', () => {
     equal(department.validate('accounting'), true)
   })
 
+  /** just add type
   it('test: should be invalid department', () => {
     assert.throws(
       () => {
@@ -36,4 +37,5 @@ describe('test: Department', () => {
       'Invalid department name'
     )
   })
+   */
 })
