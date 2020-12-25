@@ -23,7 +23,7 @@ export default class Hash {
    * ```
    */
   static IsHash(_str: string, _algorithm: string): boolean {
-    let len: string
+    let len: string | boolean
     const algo: string = _algorithm.toLowerCase()
     if (algo === 'crc32' || algo === 'crc32b') {
       len = '8'
@@ -45,16 +45,21 @@ export default class Hash {
     } else if (algo === 'sha512') {
       len = '128'
     } else {
-      return false
+      len = false
     }
 
-    const re = RegExp(`^[a-f0-9]{${len}}$`)
-    const test: boolean = re.test(_str.split('@')[0])
+    if (typeof (len) === 'string') {
+      const re = RegExp(`^[a-f0-9]{${len}}$`)
+      const test: boolean = re.test(_str.split('@')[0])
 
-    if (test === true) {
-      throw new error(`Invalid email address: is IsHash`)
+      if (test === true) {
+        throw new error(`Invalid email address: is IsHash`)
+      } else {
+        return false
+      }
     } else {
       return false
     }
+
   }
 }

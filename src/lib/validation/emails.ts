@@ -28,7 +28,7 @@ export default class Emails {
         email
       ) === false
     ) {
-      throw new error(`Invalid email address ${email}`)
+      throw new error(`Invalid email address ${email}`) // keep this
     }
 
     // check with hash algorithm

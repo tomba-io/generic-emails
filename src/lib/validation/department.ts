@@ -1,5 +1,3 @@
-import error from './../Exception/GenericEmailException'
-
 /**
  * Tomba Department class
  * @date: 2020-12-24 20:27:49
@@ -44,30 +42,8 @@ export default class Department {
    * ```
    */
   static validate(name: Departmentname): boolean {
-    const department: Array<Departmentname> = [
-      'engineering',
-      'finance',
-      'hr',
-      'it',
-      'marketing',
-      'operations',
-      'management',
-      'executive',
-      'legal',
-      'support',
-      'communication',
-      'software',
-      'security',
-      'pr',
-      'warehouse',
-      'diversity',
-      'administrative',
-      'facilities',
-      'accounting',
-      null,
-    ]
-    if (department.includes(name) === false) {
-      throw new error('Invalid department name')
+    if (name) {
+      return true
     }
     return true
   }

@@ -1,5 +1,3 @@
-import error from './../Exception/GenericEmailException'
-
 /**
  * List Seniority name.
  */
@@ -23,14 +21,8 @@ export default class Seniority {
    * ```
    */
   static validate(name: Seniorityname): boolean {
-    const seniority: Array<Seniorityname> = [
-      'junior',
-      'senior',
-      'executive',
-      null,
-    ]
-    if (seniority.includes(name) === false) {
-      throw new error('Invalid seniority name')
+    if (name) {
+      return true
     }
     return true
   }
