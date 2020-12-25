@@ -1,6 +1,9 @@
 import error from './../Exception/GenericEmailException'
 
-export type Seniorityname = 'junior' | 'senior' | 'executive'
+/**
+ * List Seniority name.
+ */
+export type Seniorityname = 'junior' | 'senior' | 'executive' | null
 
 /**
  * Tomba Seniority class
@@ -20,7 +23,12 @@ export default class Seniority {
    * ```
    */
   static validate(name: Seniorityname): boolean {
-    const seniority: Array<any> = ['junior', 'senior', 'executive']
+    const seniority: Array<Seniorityname> = [
+      'junior',
+      'senior',
+      'executive',
+      null,
+    ]
     if (seniority.includes(name) === false) {
       throw new error('Invalid seniority name')
     }

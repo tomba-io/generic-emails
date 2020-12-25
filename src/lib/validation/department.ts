@@ -8,6 +8,9 @@ import error from './../Exception/GenericEmailException'
  * @license   https://opensource.org/licenses/MIT The MIT License
  */
 
+/**
+ * List Department name.
+ */
 export type Departmentname =
   | 'engineering'
   | 'finance'
@@ -28,6 +31,7 @@ export type Departmentname =
   | 'administrative'
   | 'facilities'
   | 'accounting'
+  | null
 
 export default class Department {
   /**
@@ -40,7 +44,7 @@ export default class Department {
    * ```
    */
   static validate(name: Departmentname): boolean {
-    const department: Array<any> = [
+    const department: Array<Departmentname> = [
       'engineering',
       'finance',
       'hr',
@@ -60,6 +64,7 @@ export default class Department {
       'administrative',
       'facilities',
       'accounting',
+      null,
     ]
     if (department.includes(name) === false) {
       throw new error('Invalid department name')

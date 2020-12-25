@@ -25,6 +25,7 @@ describe('test: Department', () => {
     equal(department.validate('administrative'), true)
     equal(department.validate('facilities'), true)
     equal(department.validate('accounting'), true)
+    equal(department.validate(null), true)
   })
 
   /** just add type

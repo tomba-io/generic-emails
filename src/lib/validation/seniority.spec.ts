@@ -9,6 +9,7 @@ describe('test: Seniority', () => {
     equal(seniority.validate('junior'), true)
     equal(seniority.validate('senior'), true)
     equal(seniority.validate('executive'), true)
+    equal(seniority.validate(null), true)
   })
 
   /** just add type
