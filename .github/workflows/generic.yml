@@ -18,11 +18,12 @@ jobs:
     - run: npm install
     - run: npm run build
     - run: npm run test:unit
+    - run: npm run doc
     - name: Deploy To Github pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
+        publish_dir: ./build/docs
     - name: Publish if version has been updated
       uses: pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df
       with: # All of theses inputs are optional
