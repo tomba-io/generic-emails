@@ -16,8 +16,8 @@ jobs:
       with:
         node-version: '12.19.0'
     - run: npm install
-    - run: npm build
-    - run: npm test:unit
+    - run: npm run build
+    - run: npm run test:unit
     - name: Deploy To Github pages
       uses: peaceiris/actions-gh-pages@v3
       with:
