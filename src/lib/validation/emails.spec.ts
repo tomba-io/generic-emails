@@ -18,8 +18,7 @@ describe('test: Email', () => {
       '2a70de11d3488a3dde14ed2f8227ff573d3904e9@tomba.io', // sha1
       '0083dbedbb5fae8051dfdeb18fc4f24927a9689b5cad52cdf525aeeab3061651@tomba.io', // sha256
       'fef637dab76f47de4cc597d6488a1dc8d0cf8d8fcdee33c22477c12594503be7bcc84e1523f05c9140636b7cc2091ec0@tomba.io', // sha384
-      '55a27a22471c08a7815371f6ee306cc298d0a20b3ff9b302ea1f6cba70055e748bce6bfb67d3b776c7efa229015f2a6faffcda6c1ea38a08acb49e0951bb6a62@tomba.io',
-      '55a27a22471c08a7815371f6ee306cc298d0a20b3ff9b302ea1f6cba70055e748bce6bfb67d3b776c7efa229015f2a6faffcda6c1ea38a08acb49e0951bb6a62@tomba.io', //
+      '55a27a22471c08a7815371f6ee306cc298d0a20b3ff9b302ea1f6cba70055e748bce6bfb67d3b776c7efa229015f2a6faffcda6c1ea38a08acb49e0951bb6a62@tomba.io', // sha512
       '948a9839e941976d9ac869013971a981@tomba.io', // ripemd128
       '27e3ea050bbadd2f28a57906b61ddfebdf9fda19@tomba.io', // ripemd160
       '122c9240e6809bfcbe38e2106b46503b@tomba.io', // tiger128
