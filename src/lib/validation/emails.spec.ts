@@ -7,8 +7,10 @@ import email from './emails'
 describe('test: Email', () => {
   it('test: should be valid email', () => {
     const dev: string = 'dev@tomba.io'
+    const zero: string = '0@tomba.io'
 
     equal(email.validate(dev), true)
+    equal(email.validate(zero), true)
   })
 
   it('test: should be valid hash', () => {
