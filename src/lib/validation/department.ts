@@ -7,6 +7,28 @@ import error from './../Exception/GenericEmailException'
  * @author    Mohamed Ben rebia <b.mohamed@tomba.io>
  * @license   https://opensource.org/licenses/MIT The MIT License
  */
+
+export type Departmentname =
+  | 'engineering'
+  | 'finance'
+  | 'it'
+  | 'hr'
+  | 'marketing'
+  | 'operations'
+  | 'management'
+  | 'executive'
+  | 'legal'
+  | 'support'
+  | 'communication'
+  | 'software'
+  | 'security'
+  | 'pr'
+  | 'warehouse'
+  | 'diversity'
+  | 'administrative'
+  | 'facilities'
+  | 'accounting'
+
 export default class Department {
   /**
    * Helper method for validating Tomba department name
@@ -17,7 +39,7 @@ export default class Department {
    *  Department.validate("finance")
    * ```
    */
-  static validate(name: string): boolean {
+  static validate(name: Departmentname): boolean {
     const department: Array<any> = [
       'engineering',
       'finance',
@@ -38,7 +60,6 @@ export default class Department {
       'administrative',
       'facilities',
       'accounting',
-      null,
     ]
     if (department.includes(name) === false) {
       throw new error('Invalid department name')

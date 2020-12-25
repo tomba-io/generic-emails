@@ -7,6 +7,9 @@ import error from './../Exception/GenericEmailException'
  * @author    Mohamed Ben rebia <b.mohamed@tomba.io>
  * @license   https://opensource.org/licenses/MIT The MIT License
  */
+
+// type Algoname = "md4" | "md5" | "sha1" | "sha256" | "ripemd128" | "ripemd160" | "tiger128" | "tiger160" | "tiger192" | "crc32" | "crc32b"
+
 export default class Hash {
   /**
    * Helper method for checking string if is hash
