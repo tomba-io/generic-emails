@@ -64,7 +64,7 @@ describe('Test: Files `emails`, `schema`', () => {
       equal(await generic.isGeneric(i.email), true)
     })
     done()
-  }).timeout(20000)
+  }).timeout(40000)
 
   it('test: file emails Email validation', () => {
     emails.map((i: any) => {
