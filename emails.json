@@ -602,7 +602,7 @@
     },
     {
       "email": "accounting",
-      "department": null,
+      "department": "accounting",
       "position": null,
       "seniority": null
     },
@@ -644,19 +644,19 @@
     },
     {
       "email": "achat",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "acquisition",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "acquisto",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -914,7 +914,7 @@
     },
     {
       "email": "ads",
-      "department": null,
+      "department": "marketing",
       "position": null,
       "seniority": null
     },
@@ -980,7 +980,7 @@
     },
     {
       "email": "advertisingsales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -1370,7 +1370,7 @@
     },
     {
       "email": "allsales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -1610,7 +1610,7 @@
     },
     {
       "email": "announce-help",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -1634,7 +1634,7 @@
     },
     {
       "email": "announcements-help",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -2144,7 +2144,7 @@
     },
     {
       "email": "aspera-sales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -2324,7 +2324,7 @@
     },
     {
       "email": "atsupport",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -2570,7 +2570,7 @@
     },
     {
       "email": "azure-rtos-sales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -2750,7 +2750,7 @@
     },
     {
       "email": "beat.support",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -4118,7 +4118,7 @@
     },
     {
       "email": "channel-sales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -4238,7 +4238,7 @@
     },
     {
       "email": "chiefexecutive",
-      "department": null,
+      "department": "executive",
       "position": null,
       "seniority": null
     },
@@ -4334,7 +4334,7 @@
     },
     {
       "email": "cityadmin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -5156,55 +5156,55 @@
     },
     {
       "email": "contact",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "contactenos",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "contacter",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "contacto",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "contacts",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "contact-us",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "contact.us",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "contact_us",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "contactus",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -5444,7 +5444,7 @@
     },
     {
       "email": "corporatesales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -5774,7 +5774,7 @@
     },
     {
       "email": "customersupport",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -5894,19 +5894,19 @@
     },
     {
       "email": "data",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
     {
       "email": "databas",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
     {
       "email": "database",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
@@ -6296,7 +6296,7 @@
     },
     {
       "email": "dev-digest-help",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -6686,7 +6686,7 @@
     },
     {
       "email": "diversity",
-      "department": null,
+      "department": "diversity",
       "position": null,
       "seniority": null
     },
@@ -6830,7 +6830,7 @@
     },
     {
       "email": "domainadmin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -7376,13 +7376,13 @@
     },
     {
       "email": "engineering",
-      "department": null,
+      "department": "engineering",
       "position": null,
       "seniority": null
     },
     {
       "email": "engineers",
-      "department": null,
+      "department": "engineering",
       "position": null,
       "seniority": null
     },
@@ -7754,13 +7754,13 @@
     },
     {
       "email": "executive",
-      "department": null,
+      "department": "executive",
       "position": null,
       "seniority": null
     },
     {
       "email": "executives",
-      "department": null,
+      "department": "executive",
       "position": null,
       "seniority": null
     },
@@ -7874,7 +7874,7 @@
     },
     {
       "email": "facilities",
-      "department": null,
+      "department": "facilities",
       "position": null,
       "seniority": null
     },
@@ -8102,25 +8102,25 @@
     },
     {
       "email": "finance",
-      "department": null,
+      "department": "finance",
       "position": null,
       "seniority": null
     },
     {
       "email": "financeiro",
-      "department": null,
+      "department": "finance",
       "position": null,
       "seniority": null
     },
     {
       "email": "financeiro2",
-      "department": null,
+      "department": "finance",
       "position": null,
       "seniority": null
     },
     {
       "email": "financesecretary",
-      "department": null,
+      "department": "finance",
       "position": null,
       "seniority": null
     },
@@ -8408,7 +8408,7 @@
     },
     {
       "email": "formrecog_contact",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -8714,13 +8714,13 @@
     },
     {
       "email": "gdpr",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
     {
       "email": "gdscript",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -9524,7 +9524,7 @@
     },
     {
       "email": "healthbotsupport",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -9548,25 +9548,25 @@
     },
     {
       "email": "help",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "helpdesk",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "helpdesks",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "helpline",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -9962,19 +9962,19 @@
     },
     {
       "email": "humanresource",
-      "department": null,
+      "department": "hr",
       "position": null,
       "seniority": null
     },
     {
       "email": "human_resources",
-      "department": null,
+      "department": "hr",
       "position": null,
       "seniority": null
     },
     {
       "email": "humanresources",
-      "department": null,
+      "department": "hr",
       "position": null,
       "seniority": null
     },
@@ -10244,79 +10244,73 @@
     },
     {
       "email": "info",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "Info",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "infodesk",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "info-international",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "infor",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "informacao",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "informacion",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "Informacja",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "informatica",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "InformatIca",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "informatie",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "information",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "Information",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -10328,55 +10322,55 @@
     },
     {
       "email": "informatique",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "informativo",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "informazione",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "Informazioni",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "informes",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "infos",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "info-uk",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "info.uk",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "infra",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -10466,7 +10460,7 @@
     },
     {
       "email": "insidesales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -10880,7 +10874,7 @@
     },
     {
       "email": "ispsupport",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -10928,7 +10922,7 @@
     },
     {
       "email": "issues-help",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -10982,7 +10976,7 @@
     },
     {
       "email": "ithelp",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -11000,7 +10994,7 @@
     },
     {
       "email": "itsupport",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -11864,7 +11858,7 @@
     },
     {
       "email": "leads",
-      "department": null,
+      "department": "marketing",
       "position": null,
       "seniority": null
     },
@@ -11900,7 +11894,7 @@
     },
     {
       "email": "ledenadministratie",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -11930,19 +11924,19 @@
     },
     {
       "email": "legal",
-      "department": null,
+      "department": "legal",
       "position": null,
       "seniority": null
     },
     {
       "email": "legale",
-      "department": null,
+      "department": "legal",
       "position": null,
       "seniority": null
     },
     {
       "email": "legalt",
-      "department": null,
+      "department": "legal",
       "position": null,
       "seniority": null
     },
@@ -12800,37 +12794,37 @@
     },
     {
       "email": "management",
-      "department": null,
+      "department": "management",
       "position": null,
       "seniority": null
     },
     {
       "email": "management-group",
-      "department": null,
+      "department": "management",
       "position": null,
       "seniority": null
     },
     {
       "email": "management.team",
-      "department": null,
+      "department": "management",
       "position": null,
       "seniority": null
     },
     {
       "email": "management_team",
-      "department": null,
+      "department": "management",
       "position": null,
       "seniority": null
     },
     {
       "email": "manager",
-      "department": null,
+      "department": "management",
       "position": null,
       "seniority": null
     },
     {
       "email": "managers",
-      "department": null,
+      "department": "management",
       "position": null,
       "seniority": null
     },
@@ -12890,31 +12884,31 @@
     },
     {
       "email": "market",
-      "department": null,
+      "department": "marketing",
       "position": null,
       "seniority": null
     },
     {
       "email": "marketing",
-      "department": null,
+      "department": "marketing",
       "position": null,
       "seniority": null
     },
     {
       "email": "marketing-ops",
-      "department": null,
+      "department": "marketing",
       "position": null,
       "seniority": null
     },
     {
       "email": "marketing-team",
-      "department": null,
+      "department": "marketing",
       "position": null,
       "seniority": null
     },
     {
       "email": "marketingteam",
-      "department": null,
+      "department": "marketing",
       "position": null,
       "seniority": null
     },
@@ -14030,7 +14024,7 @@
     },
     {
       "email": "network",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
@@ -14186,7 +14180,7 @@
     },
     {
       "email": "nic-admin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -14768,13 +14762,13 @@
     },
     {
       "email": "office.admin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
     {
       "email": "officeadmin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -15044,7 +15038,7 @@
     },
     {
       "email": "operationalsupport",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -15062,7 +15056,7 @@
     },
     {
       "email": "operations",
-      "department": null,
+      "department": "operations",
       "position": null,
       "seniority": null
     },
@@ -16382,7 +16376,7 @@
     },
     {
       "email": "pr",
-      "department": null,
+      "department": "pr",
       "position": null,
       "seniority": null
     },
@@ -16928,7 +16922,7 @@
     },
     {
       "email": "property.admin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -18218,13 +18212,13 @@
     },
     {
       "email": "resource",
-      "department": null,
+      "department": "hr",
       "position": null,
       "seniority": null
     },
     {
       "email": "resources",
-      "department": null,
+      "department": "hr",
       "position": null,
       "seniority": null
     },
@@ -18404,7 +18398,7 @@
     },
     {
       "email": "reviews-help",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -18782,85 +18776,85 @@
     },
     {
       "email": "sale",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "sales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "sales1",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "sales2",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "salesengineers",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "salesforce",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "salesinfo",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "salesops",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "sales-team",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "sales.team",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "salesteam",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "sales-uk",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "sales.uk",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "salesuk",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -19034,13 +19028,13 @@
     },
     {
       "email": "schooladmin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
     {
       "email": "schoolinfo",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -19202,19 +19196,19 @@
     },
     {
       "email": "secrets",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
     {
       "email": "secure",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
     {
       "email": "securite",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
@@ -19364,7 +19358,7 @@
     },
     {
       "email": "seo",
-      "department": null,
+      "department": "marketing",
       "position": null,
       "seniority": null
     },
@@ -19388,7 +19382,7 @@
     },
     {
       "email": "server",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
@@ -19400,19 +19394,19 @@
     },
     {
       "email": "server-info",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
     {
       "email": "servers",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
     {
       "email": "server-status",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
@@ -19910,7 +19904,7 @@
     },
     {
       "email": "siteadmin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -20138,7 +20132,7 @@
     },
     {
       "email": "software",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -20444,19 +20438,19 @@
     },
     {
       "email": "ssl-admin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
     {
       "email": "ssladmin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
     {
       "email": "ssladministrator",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -21044,49 +21038,49 @@
     },
     {
       "email": "support",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "support-details",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "supportdetails",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "support-deutschland",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "supporteurope",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "supporto",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "support-team",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "supportteam",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -21242,13 +21236,13 @@
     },
     {
       "email": "sysadmin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
     {
       "email": "sysadministrator",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -21512,7 +21506,7 @@
     },
     {
       "email": "technical.support",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -21590,7 +21584,7 @@
     },
     {
       "email": "techsupport",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -21896,13 +21890,13 @@
     },
     {
       "email": "thread",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
     {
       "email": "threads",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
@@ -21914,7 +21908,7 @@
     },
     {
       "email": "tickets",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -22724,7 +22718,7 @@
     },
     {
       "email": "uksales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -22814,7 +22808,7 @@
     },
     {
       "email": "unsupported",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -22928,7 +22922,7 @@
     },
     {
       "email": "uscsupport",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -22988,7 +22982,7 @@
     },
     {
       "email": "user-help",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -23072,7 +23066,7 @@
     },
     {
       "email": "users-help",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -23744,7 +23738,7 @@
     },
     {
       "email": "warehouse",
-      "department": null,
+      "department": "warehouse",
       "position": null,
       "seniority": null
     },
@@ -23792,7 +23786,7 @@
     },
     {
       "email": "webadmin",
-      "department": null,
+      "department": "administrative",
       "position": null,
       "seniority": null
     },
@@ -24008,7 +24002,7 @@
     },
     {
       "email": "websupport",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -24116,7 +24110,7 @@
     },
     {
       "email": "wholesale",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -24236,7 +24230,7 @@
     },
     {
       "email": "wordpress",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -24428,7 +24422,7 @@
     },
     {
       "email": "www-help",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -24722,7 +24716,7 @@
     },
     {
       "email": "zagreb.sales",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -24819,6 +24813,552 @@
     {
       "email": "zwroty",
       "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "safety.centre",
+      "department": "security",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "foodsafety",
+      "department": "security",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "weddings",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "businessresources",
+      "department": "hr",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "electronica",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "cannabiscommission",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "cannabis",
+      "department": "sales",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "virtualgateway",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "commander",
+      "department": "executive",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "administacao",
+      "department": "administrative",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "participantes",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "professor",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "leader",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "architect",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "adviseur",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "responsable",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "projeteur",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "ambassador",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "administrative",
+      "department": "administrative",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "counselor",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "phlebotomist",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "barista",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "handyman",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "carpenter",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "delivery",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "supervisor",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "professora",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "senior",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "vp",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "ambassadrice",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "professeur",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "directrice",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "banque",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "conseiller",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "electrical",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "resources",
+      "department": "hr",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "manufacturing",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "lecturer",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "investment",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "graduate",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "infrastructure",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "reporting",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "contract",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "operator",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "procurement",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "editor",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "analytics",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "managing",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "performance",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "financial",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "operator",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "procurement",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "editor",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "analytics",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "managing",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "performance",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "nurse",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "regulatory",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "national",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "relationship",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "nieur",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "branch",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "mechanical",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "trainee",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "certified",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "distribution",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "environmental",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "producer",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "representative",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "customer.support",
+      "department": "support",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "programme",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "feedbackonline",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "tourism-dept",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "pictures",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "dealer",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "charities",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "fund.raiser",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "brandtechnologie",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "secretarial",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "commission-payments",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "pressestelle",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "product-safety",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "bangalore",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "photography",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "callcenter",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "clubhouse",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "oudercommissie",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "akademia",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "lifeadmin",
+      "department": "administrative",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "elektro",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "registrationhelp",
+      "department": "support",
       "position": null,
       "seniority": null
     }
