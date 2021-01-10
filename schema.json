@@ -79,6 +79,7 @@
                                 "description": "The email working in the selected department(s).",
                                 "enum": [
                                     "engineering",
+                                    "sales",
                                     "finance",
                                     "hr",
                                     "it",
