@@ -7,6 +7,7 @@ import department from './department'
 describe('test: Department', () => {
   it('test: should be valid department', () => {
     equal(department.validate('engineering'), true)
+    equal(department.validate('sales'), true)
     equal(department.validate('finance'), true)
     equal(department.validate('hr'), true)
     equal(department.validate('it'), true)

@@ -11,6 +11,7 @@
  */
 export type Departmentname =
   | 'engineering'
+  | 'sales'
   | 'finance'
   | 'it'
   | 'hr'
