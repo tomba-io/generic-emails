@@ -48,7 +48,7 @@ export default class Hash {
       len = false
     }
 
-    if (typeof (len) === 'string') {
+    if (typeof len === 'string') {
       const re = RegExp(`^[a-f0-9]{${len}}$`)
       const test: boolean = re.test(_str.split('@')[0])
 
@@ -60,6 +60,5 @@ export default class Hash {
     } else {
       return false
     }
-
   }
 }
