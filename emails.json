@@ -1904,7 +1904,7 @@
     },
     {
       "email": "arabian",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -1952,19 +1952,19 @@
     },
     {
       "email": "architect",
-      "department": null,
+      "department": "engineering",
       "position": null,
       "seniority": null
     },
     {
       "email": "architects",
-      "department": null,
+      "department": "engineering",
       "position": null,
       "seniority": null
     },
     {
       "email": "architecture",
-      "department": null,
+      "department": "engineering",
       "position": null,
       "seniority": null
     },
@@ -1994,7 +1994,7 @@
     },
     {
       "email": "arduino",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -2012,7 +2012,7 @@
     },
     {
       "email": "arin",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
@@ -2024,13 +2024,13 @@
     },
     {
       "email": "arizona",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "arkansas",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -2042,7 +2042,7 @@
     },
     {
       "email": "armenia",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -2120,7 +2120,7 @@
     },
     {
       "email": "ask",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -2132,7 +2132,7 @@
     },
     {
       "email": "asp",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -2162,7 +2162,7 @@
     },
     {
       "email": "assembly",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -2174,13 +2174,13 @@
     },
     {
       "email": "assistance",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "assistant",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -2192,19 +2192,19 @@
     },
     {
       "email": "assistencia",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "assistenza",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "assistravel",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -2300,7 +2300,7 @@
     },
     {
       "email": "atlassian",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -2312,7 +2312,7 @@
     },
     {
       "email": "atom",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -2414,25 +2414,25 @@
     },
     {
       "email": "australia",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "austria",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "auth",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
     {
       "email": "authentication",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
@@ -2480,31 +2480,31 @@
     },
     {
       "email": "avatar",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "avocat",
-      "department": null,
+      "department": "legal",
       "position": null,
       "seniority": null
     },
     {
       "email": "avocats",
-      "department": null,
+      "department": "legal",
       "position": null,
       "seniority": null
     },
     {
       "email": "avvocati",
-      "department": null,
+      "department": "legal",
       "position": null,
       "seniority": null
     },
     {
       "email": "avvocato",
-      "department": null,
+      "department": "legal",
       "position": null,
       "seniority": null
     },
@@ -2522,13 +2522,13 @@
     },
     {
       "email": "awk",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "aws",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -2552,7 +2552,7 @@
     },
     {
       "email": "azerbaijan",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -2564,7 +2564,7 @@
     },
     {
       "email": "azure",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -2582,37 +2582,37 @@
     },
     {
       "email": "backend",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "backend-dev",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "backup",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "backups",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "bahamas",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "bahrain",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -2642,7 +2642,7 @@
     },
     {
       "email": "bangladesh",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -2690,7 +2690,7 @@
     },
     {
       "email": "barcelona",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -2786,7 +2786,7 @@
     },
     {
       "email": "belarus",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -2798,7 +2798,7 @@
     },
     {
       "email": "belgium",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -2828,7 +2828,7 @@
     },
     {
       "email": "benchmarkfeedback",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -2900,7 +2900,7 @@
     },
     {
       "email": "beta",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -2978,25 +2978,25 @@
     },
     {
       "email": "bienvenido",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "bienvenue",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "billing",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "bills",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -3068,7 +3068,7 @@
     },
     {
       "email": "blackfriday",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -3272,13 +3272,13 @@
     },
     {
       "email": "bot",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "bots",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -3296,7 +3296,7 @@
     },
     {
       "email": "boutique",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -3398,7 +3398,7 @@
     },
     {
       "email": "brightscript",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -3410,7 +3410,7 @@
     },
     {
       "email": "british",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -3422,7 +3422,7 @@
     },
     {
       "email": "broadcast",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -3476,13 +3476,13 @@
     },
     {
       "email": "bug",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "bugs",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -4046,7 +4046,7 @@
     },
     {
       "email": "cfo",
-      "department": null,
+      "department": "executive",
       "position": null,
       "seniority": null
     },
@@ -4058,13 +4058,13 @@
     },
     {
       "email": "cgi",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "cgi-bin",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -4346,7 +4346,7 @@
     },
     {
       "email": "civilengineer",
-      "department": null,
+      "department": "engineering",
       "position": null,
       "seniority": null
     },
@@ -4436,37 +4436,37 @@
     },
     {
       "email": "client",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "cliente",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "clientes",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "clienti",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "clients",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "clientservices",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -4502,7 +4502,7 @@
     },
     {
       "email": "cloud",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -4532,13 +4532,13 @@
     },
     {
       "email": "cmc",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "cmo",
-      "department": null,
+      "department": "executive",
       "position": null,
       "seniority": null
     },
@@ -4550,13 +4550,13 @@
     },
     {
       "email": "cname",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "co",
-      "department": null,
+      "department": "executive",
       "position": null,
       "seniority": null
     },
@@ -4604,13 +4604,13 @@
     },
     {
       "email": "code",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "codereview",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -4700,19 +4700,19 @@
     },
     {
       "email": "comercial",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "comercial1",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "comercial2",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -4742,19 +4742,19 @@
     },
     {
       "email": "commercial",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "commerciale",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
     {
       "email": "commercialisation",
-      "department": null,
+      "department": "sales",
       "position": null,
       "seniority": null
     },
@@ -4784,31 +4784,31 @@
     },
     {
       "email": "communication",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "communications",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "communities",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "community",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "communityrelations",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -4856,13 +4856,13 @@
     },
     {
       "email": "complaint",
-      "department": null,
+      "department": "legal",
       "position": null,
       "seniority": null
     },
     {
       "email": "complaints",
-      "department": null,
+      "department": "legal",
       "position": null,
       "seniority": null
     },
@@ -4880,7 +4880,7 @@
     },
     {
       "email": "composer",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -4916,37 +4916,37 @@
     },
     {
       "email": "computer",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
     {
       "email": "comunicacao",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "comunicacion",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "comunicaciones",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "comunicazione",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
     {
       "email": "comunicazioni",
-      "department": null,
+      "department": "communication",
       "position": null,
       "seniority": null
     },
@@ -5005,7 +5005,7 @@
       "seniority": null
     },
     {
-      "email": "conformità",
+      "email": "conformita",
       "department": null,
       "position": null,
       "seniority": null
@@ -5149,7 +5149,7 @@
       "seniority": null
     },
     {
-      "email": "contabilità",
+      "email": "contabilita",
       "department": null,
       "position": null,
       "seniority": null
@@ -5912,13 +5912,13 @@
     },
     {
       "email": "dataprivacy",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
     {
       "email": "dataprotection",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
@@ -5930,31 +5930,31 @@
     },
     {
       "email": "datatype",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
     {
       "email": "datenaustausch",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
     {
       "email": "datenbank",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
     {
       "email": "datenschutz",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
     {
       "email": "db",
-      "department": null,
+      "department": "it",
       "position": null,
       "seniority": null
     },
@@ -6794,7 +6794,7 @@
     },
     {
       "email": "dogescript",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -7370,7 +7370,7 @@
     },
     {
       "email": "engineer",
-      "department": null,
+      "department": "engineering",
       "position": null,
       "seniority": null
     },
@@ -18740,7 +18740,7 @@
     },
     {
       "email": "safety",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
@@ -19436,67 +19436,67 @@
     },
     {
       "email": "services",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "servicio",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "servicioalcliente",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "servicios",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "serviciotecnico",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "servico",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "servicos",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "servizi",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "servizio",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "servizio.clienti",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
     {
       "email": "servizioclienti",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -20912,7 +20912,7 @@
     },
     {
       "email": "subscriptions",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -22796,7 +22796,7 @@
     },
     {
       "email": "unrealscript",
-      "department": null,
+      "department": "software",
       "position": null,
       "seniority": null
     },
@@ -25304,7 +25304,7 @@
     },
     {
       "email": "product-safety",
-      "department": null,
+      "department": "security",
       "position": null,
       "seniority": null
     },
@@ -25322,7 +25322,7 @@
     },
     {
       "email": "callcenter",
-      "department": null,
+      "department": "support",
       "position": null,
       "seniority": null
     },
@@ -25352,13 +25352,199 @@
     },
     {
       "email": "elektro",
-      "department": null,
+      "department": "engineering",
       "position": null,
       "seniority": null
     },
     {
       "email": "registrationhelp",
       "department": "support",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "internals",
+      "department": "support",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "agreement",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "internals",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "eletrovital",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "eletronica",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "centralcomercio",
+      "department": "sales",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "comercio",
+      "department": "sales",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "superviseur",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "organisateur",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "alisatrice",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "alisateur",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "advanced",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "administratrice",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "administratief",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "adjunct",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "actrice",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "acteur",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "chatarrizacion",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "studentcouncil",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "vermietung",
+      "department": "sales",
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "labor",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "pressrelations",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "3Dprinting",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "printing",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "industrial",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "analyste",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "especialista",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "intelligence",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "offshore",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "sourcing",
+      "department": null,
+      "position": null,
+      "seniority": null
+    },
+    {
+      "email": "webdesigner",
+      "department": null,
       "position": null,
       "seniority": null
     }
