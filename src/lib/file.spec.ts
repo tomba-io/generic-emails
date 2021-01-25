@@ -8,7 +8,7 @@ import seniority from './validation/seniority'
 
 import fs from 'fs'
 
-const schema = JSON.parse(fs.readFileSync('schema.json', 'utf8'))
+ const schema = JSON.parse(fs.readFileSync('schema.json', 'utf8'))
 const emails = JSON.parse(fs.readFileSync('emails.json', 'utf8')).emails
 describe('Test: Files `emails`, `schema`', () => {
   it('test:  file schema exists', () => {
@@ -84,5 +84,12 @@ describe('Test: Files `emails`, `schema`', () => {
     emails.map((i: any) => {
       equal(seniority.validate(i.seniority), true)
     })
+  })
+
+  it('test: delicate emails', () => {
+    const uniqueEmail = new Set(emails.map((v: { email: string }) => {
+      return v.email
+    }));
+    deepEqual(uniqueEmail.size, emails.length)
   })
 })
