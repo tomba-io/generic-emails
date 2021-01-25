@@ -5149,12 +5149,6 @@
       "seniority": null
     },
     {
-      "email": "contabilita",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
       "email": "contact",
       "department": "communication",
       "position": null,
@@ -20131,12 +20125,6 @@
       "seniority": null
     },
     {
-      "email": "software",
-      "department": "software",
-      "position": null,
-      "seniority": null
-    },
-    {
       "email": "softwaredeveloper",
       "department": null,
       "position": null,
@@ -24895,12 +24883,6 @@
       "seniority": null
     },
     {
-      "email": "architect",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
       "email": "adviseur",
       "department": null,
       "position": null,
@@ -24925,18 +24907,6 @@
       "seniority": null
     },
     {
-      "email": "administrative",
-      "department": "administrative",
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "counselor",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
       "email": "phlebotomist",
       "department": null,
       "position": null,
@@ -24955,24 +24925,6 @@
       "seniority": null
     },
     {
-      "email": "carpenter",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "delivery",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "supervisor",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
       "email": "professora",
       "department": null,
       "position": null,
@@ -24980,12 +24932,6 @@
     },
     {
       "email": "senior",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "vp",
       "department": null,
       "position": null,
       "seniority": null
@@ -25021,18 +24967,6 @@
       "seniority": null
     },
     {
-      "email": "electrical",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "resources",
-      "department": "hr",
-      "position": null,
-      "seniority": null
-    },
-    {
       "email": "manufacturing",
       "department": null,
       "position": null,
@@ -25045,25 +24979,7 @@
       "seniority": null
     },
     {
-      "email": "investment",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
       "email": "graduate",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "infrastructure",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "reporting",
       "department": null,
       "position": null,
       "seniority": null
@@ -25075,85 +24991,13 @@
       "seniority": null
     },
     {
-      "email": "operator",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "procurement",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "editor",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "analytics",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
       "email": "managing",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "performance",
       "department": null,
       "position": null,
       "seniority": null
     },
     {
       "email": "financial",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "operator",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "procurement",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "editor",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "analytics",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "managing",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "performance",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "nurse",
       "department": null,
       "position": null,
       "seniority": null
@@ -25208,18 +25052,6 @@
     },
     {
       "email": "distribution",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "environmental",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "producer",
       "department": null,
       "position": null,
       "seniority": null
@@ -25370,12 +25202,6 @@
     },
     {
       "email": "agreement",
-      "department": null,
-      "position": null,
-      "seniority": null
-    },
-    {
-      "email": "internals",
       "department": null,
       "position": null,
       "seniority": null
