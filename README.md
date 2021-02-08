@@ -23,6 +23,7 @@ The Generic emails provide :
 ## Contributors
 
 - [Mohamed Ben](https://github.com/benemohamed) - creator and maintainer
+- [abedrahim](https://github.com/Abed-rahim) - maintainer
 
 ## License
 
