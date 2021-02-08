@@ -45,8 +45,6 @@ export default class Emails {
       'tiger160',
       'tiger192',
       'sha256',
-      'sha384',
-      'sha512',
     ]
 
     algo.map((item) => {
