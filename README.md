@@ -1,4 +1,4 @@
-<p align="center"><img src="https://developer.tomba.io/images/logo-a532e775.png" height='60' /></p>
+<p align="center"><img src="https://tomba.io/logo.png" height='60' /></p>
 
 <h3 align="center">Tomba Email Finder.</h3>
 
