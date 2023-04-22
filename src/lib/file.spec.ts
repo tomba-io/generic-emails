@@ -45,7 +45,7 @@ describe('Test: Files `emails`, `schema`', () => {
   })
 
   it('test: file emails keys and types', () => {
-    deepEqual(emails[0].email, '0')
+    deepEqual(emails[0].email, '100')
     assert.isString(emails[0].email)
     assert.isNull(emails[0].department)
     assert.isNull(emails[0].position)
@@ -93,5 +93,19 @@ describe('Test: Files `emails`, `schema`', () => {
       })
     )
     deepEqual(uniqueEmail.size, emails.length)
+  })
+
+  it('test: is Upper case emails', () => {
+    emails.map((i: any) => {
+      equal(i.email, i.email.toLowerCase())
+    })
+  })
+
+  it('test: email length', () => {
+    emails.map((i: any) => {
+      if (i.email <= 2) {
+        equal(true, false)
+      }
+    })
   })
 })
