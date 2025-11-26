@@ -1,4 +1,4 @@
-import { equal } from 'assert'
+import { strictEqual } from 'assert'
 
 import lib from './generic'
 
@@ -15,27 +15,27 @@ describe('Test: Generic email check', () => {
     const info = await lib.isGeneric(email_info)
     const agent = await lib.isGeneric(email_agent)
 
-    equal(info.isgeneric, true)
-    equal(info.email, email_info)
+    strictEqual(info.isgeneric, true)
+    strictEqual(info.email, email_info)
 
-    equal(info_with_domain.isgeneric, true)
-    equal(info_with_domain.email, email_info_with_domain)
+    strictEqual(info_with_domain.isgeneric, true)
+    strictEqual(info_with_domain.email, email_info_with_domain)
 
-    equal(agent.isgeneric, true)
-    equal(agent.email, email_agent)
+    strictEqual(agent.isgeneric, true)
+    strictEqual(agent.email, email_agent)
 
-    equal(agent.isgeneric, true)
-    equal(agent.email, email_agent)
+    strictEqual(agent.isgeneric, true)
+    strictEqual(agent.email, email_agent)
 
-    equal(agent_with_domain.isgeneric, true)
-    equal(agent_with_domain.email, email_agent_with_domain)
+    strictEqual(agent_with_domain.isgeneric, true)
+    strictEqual(agent_with_domain.email, email_agent_with_domain)
   })
 
   it('test: should not be Generic email', async () => {
     const mohamed = await lib.isGeneric('mohamed@tomba.io')
     const ben = await lib.isGeneric('ben@tomba.io')
 
-    equal(mohamed.isgeneric, false)
-    equal(ben.isgeneric, false)
+    strictEqual(mohamed.isgeneric, false)
+    strictEqual(ben.isgeneric, false)
   })
 })

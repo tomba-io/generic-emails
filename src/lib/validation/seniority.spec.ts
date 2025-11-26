@@ -1,4 +1,4 @@
-import { equal } from 'assert'
+import { strictEqual } from 'assert'
 //import { assert } from 'chai'
 
 // import error from './../Exception/GenericEmailException'
@@ -6,10 +6,10 @@ import seniority from './seniority'
 
 describe('test: Seniority', () => {
   it('test: should be valid seniority', () => {
-    equal(seniority.validate('junior'), true)
-    equal(seniority.validate('senior'), true)
-    equal(seniority.validate('executive'), true)
-    equal(seniority.validate(null), true)
+    strictEqual(seniority.validate('junior'), true)
+    strictEqual(seniority.validate('senior'), true)
+    strictEqual(seniority.validate('executive'), true)
+    strictEqual(seniority.validate(null), true)
   })
 
   /** just add type

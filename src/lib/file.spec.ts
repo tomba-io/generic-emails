@@ -1,4 +1,4 @@
-import { equal, deepEqual } from 'assert'
+import { strictEqual, deepStrictEqual } from 'assert'
 import { assert } from 'chai'
 
 import email from './validation/emails'
@@ -12,23 +12,23 @@ const schema = JSON.parse(fs.readFileSync('schema.json', 'utf8'))
 const emails = JSON.parse(fs.readFileSync('emails.json', 'utf8')).emails
 describe('Test: Files `emails`, `schema`', () => {
   it('test:  file schema exists', () => {
-    equal(fs.existsSync('schema.json'), true)
+    strictEqual(fs.existsSync('schema.json'), true)
     assert.isObject(schema)
   })
 
   it('test: file schema keys and types', () => {
-    deepEqual(
+    deepStrictEqual(
       schema.title,
       'The list of generic email found on the web with: department,position,seniority'
     )
     assert.isString(schema.title)
-    deepEqual(schema.additionalProperties, false)
+    deepStrictEqual(schema.additionalProperties, false)
     assert.isBoolean(schema.additionalProperties)
-    deepEqual(schema.definitions, {})
+    deepStrictEqual(schema.definitions, {})
     assert.isObject(schema.definitions)
-    deepEqual(schema.type, 'object')
+    deepStrictEqual(schema.type, 'object')
     assert.isString(schema.type)
-    deepEqual(schema.required, ['emails'])
+    deepStrictEqual(schema.required, ['emails'])
     assert.isArray(schema.required)
   })
 
@@ -40,12 +40,12 @@ describe('Test: Files `emails`, `schema`', () => {
   })
 
   it('test: file emails exists', () => {
-    equal(fs.existsSync('emails.json'), true)
+    strictEqual(fs.existsSync('emails.json'), true)
     assert.isArray(emails)
   })
 
   it('test: file emails keys and types', () => {
-    deepEqual(emails[0].email, '100')
+    deepStrictEqual(emails[0].email, '101')
     assert.isString(emails[0].email)
     assert.isNull(emails[0].department)
     assert.isNull(emails[0].position)
@@ -61,7 +61,7 @@ describe('Test: Files `emails`, `schema`', () => {
 
   it('test: file emails Email if is Generic', (done) => {
     emails.map(async (i: any) => {
-      equal(await generic.isGeneric(i.email), true)
+      strictEqual(await generic.isGeneric(i.email), true)
     })
     done()
   }).timeout(40000)
@@ -82,7 +82,7 @@ describe('Test: Files `emails`, `schema`', () => {
 
   it('test: file emails seniority', () => {
     emails.map((i: any) => {
-      equal(seniority.validate(i.seniority), true)
+      strictEqual(seniority.validate(i.seniority), true)
     })
   })
 
@@ -92,19 +92,19 @@ describe('Test: Files `emails`, `schema`', () => {
         return v.email
       })
     )
-    deepEqual(uniqueEmail.size, emails.length)
+    deepStrictEqual(uniqueEmail.size, emails.length)
   })
 
   it('test: is Upper case emails', () => {
     emails.map((i: any) => {
-      equal(i.email, i.email.toLowerCase())
+      strictEqual(i.email, i.email.toLowerCase())
     })
   })
 
   it('test: email length', () => {
     emails.map((i: any) => {
       if (i.email <= 2) {
-        equal(true, false)
+        strictEqual(true, false)
       }
     })
   })

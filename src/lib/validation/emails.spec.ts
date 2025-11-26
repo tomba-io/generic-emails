@@ -1,4 +1,4 @@
-import { equal } from 'assert'
+import { strictEqual } from 'assert'
 import { assert } from 'chai'
 
 import error from './../Exception/GenericEmailException'
@@ -9,8 +9,8 @@ describe('test: Email', () => {
     const dev: string = 'dev@tomba.io'
     const zero: string = '0@tomba.io'
 
-    equal(email.validate(dev), true)
-    equal(email.validate(zero), true)
+    strictEqual(email.validate(dev), true)
+    strictEqual(email.validate(zero), true)
   })
 
   it('test: should be valid hash', () => {

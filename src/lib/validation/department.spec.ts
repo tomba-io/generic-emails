@@ -1,4 +1,4 @@
-import { equal } from 'assert'
+import { strictEqual } from 'assert'
 // import { assert } from 'chai'
 
 // import error from './../Exception/GenericEmailException'
@@ -6,27 +6,27 @@ import department from './department'
 
 describe('test: Department', () => {
   it('test: should be valid department', () => {
-    equal(department.validate('engineering'), true)
-    equal(department.validate('sales'), true)
-    equal(department.validate('finance'), true)
-    equal(department.validate('hr'), true)
-    equal(department.validate('it'), true)
-    equal(department.validate('marketing'), true)
-    equal(department.validate('operations'), true)
-    equal(department.validate('management'), true)
-    equal(department.validate('executive'), true)
-    equal(department.validate('legal'), true)
-    equal(department.validate('support'), true)
-    equal(department.validate('communication'), true)
-    equal(department.validate('software'), true)
-    equal(department.validate('security'), true)
-    equal(department.validate('pr'), true)
-    equal(department.validate('warehouse'), true)
-    equal(department.validate('diversity'), true)
-    equal(department.validate('administrative'), true)
-    equal(department.validate('facilities'), true)
-    equal(department.validate('accounting'), true)
-    equal(department.validate(null), true)
+    strictEqual(department.validate('engineering'), true)
+    strictEqual(department.validate('sales'), true)
+    strictEqual(department.validate('finance'), true)
+    strictEqual(department.validate('hr'), true)
+    strictEqual(department.validate('it'), true)
+    strictEqual(department.validate('marketing'), true)
+    strictEqual(department.validate('operations'), true)
+    strictEqual(department.validate('management'), true)
+    strictEqual(department.validate('executive'), true)
+    strictEqual(department.validate('legal'), true)
+    strictEqual(department.validate('support'), true)
+    strictEqual(department.validate('communication'), true)
+    strictEqual(department.validate('software'), true)
+    strictEqual(department.validate('security'), true)
+    strictEqual(department.validate('pr'), true)
+    strictEqual(department.validate('warehouse'), true)
+    strictEqual(department.validate('diversity'), true)
+    strictEqual(department.validate('administrative'), true)
+    strictEqual(department.validate('facilities'), true)
+    strictEqual(department.validate('accounting'), true)
+    strictEqual(department.validate(null), true)
   })
 
   /** just add type
