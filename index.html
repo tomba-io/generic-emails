@@ -65,28 +65,228 @@
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
 				<p align="center"><img src="https://tomba.io/logo.png" height='60' /></p>
-				<h3 align="center">Tomba Email Finder.</h3>
-				<a href="#tomba-generic-emails-checker" id="tomba-generic-emails-checker" style="color: inherit; text-decoration: none;">
-					<h1>Tomba Generic emails checker</h1>
+				<h3 align="center">Tomba Email Finder</h3>
+				<a href="#generic-emails-checker" id="generic-emails-checker" style="color: inherit; text-decoration: none;">
+					<h1>Generic Emails Checker</h1>
 				</a>
-				<p>The Generic emails provide :</p>
+				<p><a href="https://www.npmjs.com/package/generic-emails"><img src="https://badge.fury.io/js/generic-emails.svg" alt="npm version"></a>
+				<a href="https://github.com/tomba-io/generic-emails"><img src="https://img.shields.io/github/license/tomba-io/generic-emails.svg" alt="GitHub license"></a></p>
+				<p>A comprehensive TypeScript/JavaScript library for detecting generic email addresses and extracting metadata such as department, seniority, and position information. This package contains a curated list of over 27,000 generic email patterns found on the web.</p>
+				<a href="#features" id="features" style="color: inherit; text-decoration: none;">
+					<h2>Features</h2>
+				</a>
 				<ul>
-					<li>Check the email if is <code>generic email</code></li>
-					<li>Check the email if is <code>valid</code></li>
-					<li>List of email found on the web <code>emails.json</code></li>
-					<li>Additional fields <code>department</code>, <code>seniority</code>, <code>position</code></li>
-					<li>Available for browsers or Node.js backend</li>
+					<li>Check if an email address is generic (e.g., info@, contact@, support@)</li>
+					<li>Validate email address format</li>
+					<li>Extract department information (engineering, sales, hr, etc.)</li>
+					<li>Identify seniority level (junior, senior, executive)</li>
+					<li>Determine position type</li>
+					<li>Extensive database of 27,000+ generic email patterns</li>
+					<li>TypeScript support with full type definitions</li>
+					<li>Works in Node.js and browsers</li>
+					<li>Zero dependencies (runtime)</li>
+				</ul>
+				<a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
+					<h2>Installation</h2>
+				</a>
+				<pre><code class="language-bash">npm install generic-emails</code></pre>
+				<p>or using yarn:</p>
+				<pre><code class="language-bash">yarn add generic-emails</code></pre>
+				<a href="#quick-start" id="quick-start" style="color: inherit; text-decoration: none;">
+					<h2>Quick Start</h2>
+				</a>
+				<pre><code class="language-javascript"><span class="hljs-keyword">const</span> { GenericEmail } = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;generic-emails&#x27;</span>)
+
+<span class="hljs-comment">// Check if an email is generic</span>
+<span class="hljs-keyword">const</span> result = <span class="hljs-keyword">await</span> GenericEmail.isGeneric(<span class="hljs-string">&#x27;info@company.com&#x27;</span>)
+<span class="hljs-built_in">console</span>.log(result)
+<span class="hljs-comment">// Output:</span>
+<span class="hljs-comment">// {</span>
+<span class="hljs-comment">//   email: &#x27;info@company.com&#x27;,</span>
+<span class="hljs-comment">//   isgeneric: true,</span>
+<span class="hljs-comment">//   department: null,</span>
+<span class="hljs-comment">//   position: null,</span>
+<span class="hljs-comment">//   seniority: null</span>
+<span class="hljs-comment">// }</span></code></pre>
+				<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
+					<h2>Usage</h2>
+				</a>
+				<a href="#check-generic-email" id="check-generic-email" style="color: inherit; text-decoration: none;">
+					<h3>Check Generic Email</h3>
+				</a>
+				<p>The main functionality is to determine if an email address is generic and retrieve associated metadata:</p>
+				<pre><code class="language-javascript"><span class="hljs-keyword">const</span> { GenericEmail } = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;generic-emails&#x27;</span>);
+
+<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">checkEmail</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">const</span> result = <span class="hljs-keyword">await</span> GenericEmail.isGeneric(<span class="hljs-string">&#x27;sales@company.com&#x27;</span>);
+
+  <span class="hljs-keyword">if</span> (result.isgeneric) {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;This is a generic email&#x27;</span>);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Department:&#x27;</span>, result.department);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Position:&#x27;</span>, result.position);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Seniority:&#x27;</span>, result.seniority);
+  } <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;This is a personal email&#x27;</span>);
+  }
+}
+
+checkEmail();
+<span class="hljs-string">``</span><span class="hljs-string">`### Email Validation
+
+Validate email addresses and detect hash-based patterns:
+
+`</span><span class="hljs-string">``</span>javascript
+<span class="hljs-keyword">const</span> { Emails } = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;generic-emails&#x27;</span>);
+
+<span class="hljs-keyword">try</span> {
+  <span class="hljs-keyword">const</span> isValid = Emails.validate(<span class="hljs-string">&#x27;user@example.com&#x27;</span>);
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Email is valid:&#x27;</span>, isValid);
+} <span class="hljs-keyword">catch</span> (error) {
+  <span class="hljs-built_in">console</span>.error(<span class="hljs-string">&#x27;Invalid email:&#x27;</span>, error.message);
+}</code></pre>
+				<a href="#department-validation" id="department-validation" style="color: inherit; text-decoration: none;">
+					<h3>Department Validation</h3>
+				</a>
+				<p>Validate department names against supported types:</p>
+				<pre><code class="language-javascript"><span class="hljs-keyword">const</span> { Department } = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;generic-emails&#x27;</span>)
+
+<span class="hljs-keyword">const</span> isValid = Department.validate(<span class="hljs-string">&#x27;engineering&#x27;</span>)
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Valid department:&#x27;</span>, isValid)</code></pre>
+				<p>Supported departments: <code>engineering</code>, <code>sales</code>, <code>finance</code>, <code>it</code>, <code>hr</code>, <code>marketing</code>, <code>operations</code>, <code>management</code>, <code>executive</code>, <code>legal</code>, <code>support</code>, <code>communication</code>, <code>software</code>, <code>security</code>, <code>pr</code>, <code>warehouse</code>, <code>diversity</code>, <code>administrative</code>, <code>facilities</code>, <code>accounting</code></p>
+				<a href="#seniority-validation" id="seniority-validation" style="color: inherit; text-decoration: none;">
+					<h3>Seniority Validation</h3>
+				</a>
+				<p>Check seniority levels:</p>
+				<pre><code class="language-javascript"><span class="hljs-keyword">const</span> { Seniority } = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;generic-emails&#x27;</span>)
+
+<span class="hljs-keyword">const</span> isValid = Seniority.validate(<span class="hljs-string">&#x27;senior&#x27;</span>)
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Valid seniority:&#x27;</span>, isValid)</code></pre>
+				<p>Supported seniority levels: <code>junior</code>, <code>senior</code>, <code>executive</code></p>
+				<a href="#typescript-usage" id="typescript-usage" style="color: inherit; text-decoration: none;">
+					<h2>TypeScript Usage</h2>
+				</a>
+				<p>The library is written in TypeScript and includes full type definitions:</p>
+				<pre><code class="language-typescript"><span class="hljs-keyword">import</span> { GenericEmail, GenericData, Email } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;generic-emails&#x27;</span>
+<span class="hljs-keyword">import</span> { Departmentname } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;generic-emails&#x27;</span>
+<span class="hljs-keyword">import</span> { Seniorityname } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;generic-emails&#x27;</span>
+
+<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">checkGenericEmail</span>(<span class="hljs-params">email: <span class="hljs-built_in">string</span></span>): <span class="hljs-title">Promise</span>&lt;<span class="hljs-title">GenericData</span>&gt; </span>{
+  <span class="hljs-keyword">const</span> result = <span class="hljs-keyword">await</span> GenericEmail.isGeneric(email)
+  <span class="hljs-keyword">return</span> result
+}
+
+<span class="hljs-comment">// Use type-safe department names</span>
+<span class="hljs-keyword">const</span> department: Departmentname = <span class="hljs-string">&#x27;engineering&#x27;</span>
+
+<span class="hljs-comment">// Use type-safe seniority names</span>
+<span class="hljs-keyword">const</span> seniority: Seniorityname = <span class="hljs-string">&#x27;senior&#x27;</span></code></pre>
+				<a href="#api-reference" id="api-reference" style="color: inherit; text-decoration: none;">
+					<h2>API Reference</h2>
+				</a>
+				<a href="#genericemailisgenericemail-string-promiseltgenericdatagt" id="genericemailisgenericemail-string-promiseltgenericdatagt" style="color: inherit; text-decoration: none;">
+					<h3><code>GenericEmail.isGeneric(email: string): Promise&lt;GenericData&gt;</code></h3>
+				</a>
+				<p>Checks if an email address is generic and returns metadata.</p>
+				<p><strong>Parameters:</strong></p>
+				<ul>
+					<li><code>email</code> (string): The email address to check (can be full email or just the local part)</li>
+				</ul>
+				<p><strong>Returns:</strong> <code>Promise&lt;GenericData&gt;</code></p>
+				<pre><code class="language-typescript"><span class="hljs-keyword">interface</span> GenericData {
+  email?: <span class="hljs-built_in">string</span>
+  isgeneric?: <span class="hljs-built_in">boolean</span>
+  department?: <span class="hljs-built_in">string</span>
+  position?: <span class="hljs-built_in">string</span>
+  seniority?: <span class="hljs-built_in">string</span>
+}</code></pre>
+				<a href="#emailsvalidateemail-string-boolean" id="emailsvalidateemail-string-boolean" style="color: inherit; text-decoration: none;">
+					<h3><code>Emails.validate(email: string): boolean</code></h3>
+				</a>
+				<p>Validates an email address format and checks for hash-based patterns.</p>
+				<p><strong>Parameters:</strong></p>
+				<ul>
+					<li><code>email</code> (string): The email address to validate</li>
+				</ul>
+				<p><strong>Returns:</strong> <code>boolean</code> - Returns true if valid, throws error if invalid</p>
+				<a href="#departmentvalidatename-departmentname-boolean" id="departmentvalidatename-departmentname-boolean" style="color: inherit; text-decoration: none;">
+					<h3><code>Department.validate(name: Departmentname): boolean</code></h3>
+				</a>
+				<p>Validates a department name.</p>
+				<p><strong>Parameters:</strong></p>
+				<ul>
+					<li><code>name</code> (Departmentname): The department name to validate</li>
+				</ul>
+				<p><strong>Returns:</strong> <code>boolean</code></p>
+				<a href="#seniorityvalidatename-seniorityname-boolean" id="seniorityvalidatename-seniorityname-boolean" style="color: inherit; text-decoration: none;">
+					<h3><code>Seniority.validate(name: Seniorityname): boolean</code></h3>
+				</a>
+				<p>Validates a seniority level.</p>
+				<p><strong>Parameters:</strong></p>
+				<ul>
+					<li><code>name</code> (Seniorityname): The seniority level to validate</li>
+				</ul>
+				<p><strong>Returns:</strong> <code>boolean</code></p>
+				<a href="#examples" id="examples" style="color: inherit; text-decoration: none;">
+					<h2>Examples</h2>
+				</a>
+				<p>Check out the <a href="./examples">examples</a> directory for more detailed usage examples:</p>
+				<ul>
+					<li><a href="./examples/basic-usage.js">Basic Usage</a> - Simple generic email checking</li>
+					<li><a href="./examples/validation.js">Validation</a> - Email, department, and seniority validation</li>
+					<li><a href="./examples/typescript-usage.ts">TypeScript Usage</a> - Using with TypeScript</li>
+					<li><a href="./examples/batch-processing.js">Batch Processing</a> - Processing multiple emails</li>
+				</ul>
+				<a href="#data-source" id="data-source" style="color: inherit; text-decoration: none;">
+					<h2>Data Source</h2>
+				</a>
+				<p>The package includes a comprehensive <code>emails.json</code> file containing over 27,000 generic email patterns collected from the web. Each entry may include:</p>
+				<ul>
+					<li>Email pattern (local part before @)</li>
+					<li>Department classification</li>
+					<li>Position information</li>
+					<li>Seniority level</li>
+				</ul>
+				<a href="#use-cases" id="use-cases" style="color: inherit; text-decoration: none;">
+					<h2>Use Cases</h2>
+				</a>
+				<ul>
+					<li><strong>Lead Qualification</strong>: Filter out generic emails to focus on personal contacts</li>
+					<li><strong>Email List Cleaning</strong>: Remove generic addresses from marketing campaigns</li>
+					<li><strong>Contact Discovery</strong>: Identify department-specific emails for targeted outreach</li>
+					<li><strong>Data Enrichment</strong>: Add department and seniority metadata to email addresses</li>
+					<li><strong>Form Validation</strong>: Encourage users to provide personal rather than generic emails</li>
 				</ul>
 				<a href="#contributing" id="contributing" style="color: inherit; text-decoration: none;">
 					<h2>Contributing</h2>
 				</a>
+				<p>We welcome contributions! Here&#39;s how you can help:</p>
 				<ol>
 					<li>Fork it (<a href="https://github.com/tomba-io/generic-emails/fork">https://github.com/tomba-io/generic-emails/fork</a>)</li>
 					<li>Create your feature branch (<code>git checkout -b my-new-email</code>)</li>
-					<li>Commit your changes (<code>git commit -am &#39;Add new email&#39;</code>)</li>
+					<li>Add generic emails to <code>emails.json</code> with appropriate metadata</li>
+					<li>Run jq command to sort emails.json (<code>jq -S . emails.json &gt; temp.json &amp;&amp; mv temp.json emails.json</code>)</li>
+					<li>Run tests to ensure everything works (<code>npm test</code>)</li>
+					<li>Commit your changes (<code>git commit -am &#39;Add new email patterns&#39;</code>)</li>
 					<li>Push to the branch (<code>git push origin my-new-email</code>)</li>
 					<li>Create a new Pull Request</li>
 				</ol>
+				<a href="#adding-new-generic-emails" id="adding-new-generic-emails" style="color: inherit; text-decoration: none;">
+					<h3>Adding New Generic Emails</h3>
+				</a>
+				<p>When adding new entries to <code>emails.json</code>, please follow this format:</p>
+				<pre><code class="language-json">{
+  <span class="hljs-attr">&quot;email&quot;</span>: <span class="hljs-string">&quot;support&quot;</span>,
+  <span class="hljs-attr">&quot;department&quot;</span>: <span class="hljs-string">&quot;support&quot;</span>,
+  <span class="hljs-attr">&quot;position&quot;</span>: <span class="hljs-string">&quot;support&quot;</span>,
+  <span class="hljs-attr">&quot;seniority&quot;</span>: <span class="hljs-literal">null</span>
+}</code></pre>
+				<a href="#requirements" id="requirements" style="color: inherit; text-decoration: none;">
+					<h2>Requirements</h2>
+				</a>
+				<ul>
+					<li>Node.js &gt;= 16.x</li>
+					<li>TypeScript &gt;= 3.0 (for development)</li>
+				</ul>
 				<a href="#contributors" id="contributors" style="color: inherit; text-decoration: none;">
 					<h2>Contributors</h2>
 				</a>
@@ -98,6 +298,17 @@
 					<h2>License</h2>
 				</a>
 				<p><a href="https://github.com/tomba-io/generic-emails"><img src="https://img.shields.io/github/license/tomba-io/generic-emails.svg" alt="GitHub license"></a></p>
+				<p>MIT License - see the <a href="LICENSE">LICENSE</a> file for details</p>
+				<a href="#related-projects" id="related-projects" style="color: inherit; text-decoration: none;">
+					<h2>Related Projects</h2>
+				</a>
+				<ul>
+					<li><a href="https://tomba.io">Tomba.io</a> - Email Finder and Verification API</li>
+				</ul>
+				<a href="#support" id="support" style="color: inherit; text-decoration: none;">
+					<h2>Support</h2>
+				</a>
+				<p>For questions and support, please open an issue on <a href="https://github.com/tomba-io/generic-emails/issues">GitHub</a>.</p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
