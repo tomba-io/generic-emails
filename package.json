@@ -7,11 +7,21 @@
   "module": "build/module/index.js",
   "repository": "https://github.com/benemohamed/generic-emails",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "generic",
+    "emails",
+    "department",
+    "position",
+    "seniority",
+    "contacts",
+    "email-finder"
+  ],
   "scripts": {
-    "build": "run-p build:*",
+    "build": "run-s clean build:*",
+    "clean": "rm -rf build",
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
+    "build:copy": "cp emails.json README.md package.json LICENSE build/main/ && cp emails.json README.md package.json LICENSE build/module/",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:lint": "tslint --fix --project .",
