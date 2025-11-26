@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/benemohamed/generic-emails/compare/v1.3.0...v1.4.1) (2025-11-26)
+
+
+### Bug Fixes
+
+* update repository field format in package.json ([a8d6e16](https://github.com/benemohamed/generic-emails/commit/a8d6e16b0239615956f3412fe57de4c6a62cecef))
+* update version script to include git push with tags ([94cc9e2](https://github.com/benemohamed/generic-emails/commit/94cc9e265315f92d9535e6f2010fe493f80bd954))
+
 ## 1.3.0 (2025-11-26)
 
 
