@@ -1,4 +1,5 @@
 import * as fs from 'fs'
+import * as path from 'path'
 // import email from './validation/emails'
 // import Data from './../emails.json'
 
@@ -29,6 +30,41 @@ export interface Email {
  * @license   https://opensource.org/licenses/MIT The MIT License
  */
 export default class GenericEmail {
+  private static emailsData: Email[] | null = null
+
+  /**
+   * Load emails data from JSON file
+   */
+  private static loadEmailsData(): Email[] {
+    if (this.emailsData === null) {
+      // Try multiple possible paths for emails.json
+      const possiblePaths = [
+        path.join(__dirname, 'emails.json'), // Same directory (build)
+        path.join(__dirname, '../emails.json'), // One level up (build)
+        path.join(__dirname, '../../emails.json'), // Root (build to src)
+        path.join(process.cwd(), 'emails.json'), // Project root
+      ]
+
+      let foundPath: string | null = null
+      for (const emailPath of possiblePaths) {
+        if (fs.existsSync(emailPath)) {
+          foundPath = emailPath
+          this.emailsData = JSON.parse(
+            fs.readFileSync(emailPath, 'utf8')
+          ).emails
+          break
+        }
+      }
+
+      if (this.emailsData === null || !foundPath) {
+        throw new Error(
+          `emails.json file not found. Tried paths: ${possiblePaths.join(', ')}`
+        )
+      }
+    }
+    return this.emailsData
+  }
+
   /**
    * Helper method for checking email address if is Generic with additional fields
    * @param _email The Email address for checking
@@ -39,23 +75,30 @@ export default class GenericEmail {
    * ```
    */
   static async isGeneric(_email: string): Promise<GenericData> {
-    const data = JSON.parse(fs.readFileSync('emails.json', 'utf8')).emails
-    const check: GenericData = await data.find(
-      (item: Email) =>
-        item.email === (_email.split('@')[0] ? _email.split('@')[0] : _email)
-    )
+    if (!_email || typeof _email !== 'string') {
+      throw new Error('Email parameter is required and must be a string')
+    }
 
-    if (check !== undefined) {
-      delete check.email
-      return { ...check, isgeneric: true, email: _email }
-    } else {
+    const emailLocal = _email.includes('@') ? _email.split('@')[0] : _email
+    const data = this.loadEmailsData()
+
+    const check = data.find((item: Email) => item.email === emailLocal)
+
+    if (check) {
+      const { email: _, ...rest } = check
       return {
-        isgeneric: false,
+        ...rest,
+        isgeneric: true,
         email: _email,
-        department: undefined,
-        position: undefined,
-        seniority: undefined,
       }
+    }
+
+    return {
+      isgeneric: false,
+      email: _email,
+      department: undefined,
+      position: undefined,
+      seniority: undefined,
     }
   }
 }

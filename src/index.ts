@@ -1,5 +1,9 @@
-// export * import GenericEmail from './lib/generic'
-// export default GenericEmail
+export { default as GenericEmail } from './lib/generic'
+export { default as Emails } from './lib/validation/emails'
+export { default as Department } from './lib/validation/department'
+export { default as Seniority } from './lib/validation/seniority'
+export { default as Hash } from './lib/validation/hash'
+
 export * from './lib/generic'
 export * from './lib/validation/emails'
 export * from './lib/validation/department'
