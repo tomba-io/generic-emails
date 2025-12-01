@@ -57,37 +57,39 @@ console.log(result)
 
 The main functionality is to determine if an email address is generic and retrieve associated metadata:
 
-````javascript
-const { GenericEmail } = require('generic-emails');
+```javascript
+const { GenericEmail } = require('generic-emails')
 
 async function checkEmail() {
-  const result = await GenericEmail.isGeneric('sales@company.com');
+  const result = await GenericEmail.isGeneric('sales@company.com')
 
   if (result.isgeneric) {
-    console.log('This is a generic email');
-    console.log('Department:', result.department);
-    console.log('Position:', result.position);
-    console.log('Seniority:', result.seniority);
+    console.log('This is a generic email')
+    console.log('Department:', result.department)
+    console.log('Position:', result.position)
+    console.log('Seniority:', result.seniority)
   } else {
-    console.log('This is a personal email');
+    console.log('This is a personal email')
   }
 }
 
-checkEmail();
-```### Email Validation
+checkEmail()
+```
+
+### Email Validation
 
 Validate email addresses and detect hash-based patterns:
 
 ```javascript
-const { Emails } = require('generic-emails');
+const { Emails } = require('generic-emails')
 
 try {
-  const isValid = Emails.validate('user@example.com');
-  console.log('Email is valid:', isValid);
+  const isValid = Emails.validate('user@example.com')
+  console.log('Email is valid:', isValid)
 } catch (error) {
-  console.error('Invalid email:', error.message);
+  console.error('Invalid email:', error.message)
 }
-````
+```
 
 ### Department Validation
 
